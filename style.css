@@ -1,0 +1,48 @@
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(20, 20, 20, 0.7) , rgba(20, 20, 20, 0.7)) , url(img/bg-hero.jpg) , no-repeat;
+    background-size: cover;
+}
+.in-p{
+    outline: none;
+}
+.searchh{
+    right: 230px;
+}
+.i-hight{
+    height: 97vh;
+}
+#read-more{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+#book-now{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.boz-a{
+    margin-bottom: -20px;
+}
+@media screen and (max-width : 480px){
+    .navbar{
+        padding: 0 !important;
+    }
+    .navbar-toggler{
+       border: 2px solid white !important;
+       background-color: gray;
+    }
+    .ser{
+        width: 100% !important;
+        padding: 10px !important;
+    }
+    .searchh{
+        right: 9px;
+    }
+    .boz-a{
+        margin-bottom: -20px;
+        margin-left: 60px !important;
+    }
+    hr{
+        margin-top: 0;
+    }
+}
